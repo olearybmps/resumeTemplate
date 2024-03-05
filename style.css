@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.mainContainer {
+    border: 1px solid black;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+.resumeContainer {
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.leftSideBar {
+    border: 1px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: #941120;
+    display: flex;
+    flex-direction: column;
+}
+
+.whoAmI {
+    text-align: center;
+}
+
+.whoAmI p{
+    color: white;
+    font-weight: 600;
+}
+
+.details {
+    margin: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.myPic {
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.hRow {
+    width: 100px;
+}
+
+.detailTitle {
+    color: white;
+}
+
+.skills {
+    margin: 5px;
+}
+
+.skillText {
+    color: #fff;
+    padding-bottom: 5px;
+    margin-bottom:0%;
+}
+
+.skillBar {
+    width: 100%;
+    background-color: #aaa;
+}
+
+/* Actual progress bar */
+.skillProgress {
+    width: 50%;
+    /* Initial progress */
+    height: 10px;
+    background-color: #fff;
+}
+
+.goodRating {
+    width: 100%;
+}
+
+.medRating {
+    width: 50%;
+}
+
+.poorRating {
+    width: 25%;
+}
+
+.mainResumeInfo {
+    width: 100%;
+    margin: 10px;
+    /* border: 2px solid green; */
+}
+
+.mainResumeInfo h1 {
+    font-size: 24px;
+}
+
+.mainResumeInfo h2 {
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.mainResumeInfo p li {
+    font-size: 14px;
+}
+
+.education h5 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.dates {
+    color: #aaa;
+    padding: 0px;
+}
